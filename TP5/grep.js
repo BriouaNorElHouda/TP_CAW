@@ -1,5 +1,6 @@
 const {readFileSync, promises: fsPromises} = require('fs');
-async function checkIfContainsAsync(exp, file) {
+async function grep(exp,file) {
+
   try {
     const contents = await fsPromises.readFile(file, 'utf-8');
 
@@ -17,4 +18,4 @@ async function checkIfContainsAsync(exp, file) {
   }
 }
 
-checkIfContainsAsync('logger' ,'./exo4.js');
+grep('logger' ,'./exo4.js');
