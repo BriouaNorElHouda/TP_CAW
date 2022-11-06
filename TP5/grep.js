@@ -5,7 +5,7 @@ async function checkIfContainsAsync(exp, file) {
 
     const res = contents.includes(exp);
     if(res==true){
-      console.log(file);
+      console.log('found in file ',file);
     }else{
       console.log("NONE");
     }
