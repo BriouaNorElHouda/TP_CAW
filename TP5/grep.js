@@ -85,4 +85,4 @@ console.log(Searchfile("Hope World", "./Kounouz.txt", "./Nour.js", "./Nour.txt")
 console.log(Searchdir("search", "./Kounouz.txt", "./Nour.txt",  "./informatique"));
 
 
-//by Nor el houda BRIOUA  & Kounouz HEDJILA
+
